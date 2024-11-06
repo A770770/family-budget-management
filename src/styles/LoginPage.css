@@ -1,0 +1,103 @@
+/* src/styles/LoginPage.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9eff7;
+    /* רקע בהיר */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    background-color: #ffffff;
+    /* צבע רקע לתיבה */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    /* צל */
+    border-radius: 10px;
+    /* קצוות מעוגלים */
+    text-align: center;
+    direction: rtl;
+    /* כיוון טקסט מימין לשמאל */
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #333333;
+    /* צבע הכותרת */
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #3b5998;
+    /* צבע גבול בעת פוקוס */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3b5998;
+    /* צבע הכפתור */
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2d4373;
+}
+
+p.error {
+    color: #ff4d4f;
+    /* צבע הודעת שגיאה */
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    color: #3b5998;
+    /* צבע קישור */
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2d4373;
+}
+
+.role-select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
